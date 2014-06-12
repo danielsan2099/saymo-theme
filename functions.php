@@ -552,3 +552,42 @@ function thumb($url = 1,$tamano = 'full',$html=''){
         
     }
 }
+
+function fancybox($dir,$gal,$rel){
+	?>
+	<script src="<?php echo get_bloginfo('stylesheet_directory');?>/js/fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo('stylesheet_directory');?>/js/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+	<script>
+		/*var galerias = [
+			<?php 
+				echo "'/'";
+				foreach ($dir as $k => $v) {
+					echo ",'" . $v . "'";
+				}
+			?>
+		];*/
+		$(document).ready(function(){
+		    $(".<?php echo $gal ?>").fancybox();
+		});
+	</script>
+	<?php  
+		foreach ($dir as $k => $v) {
+			$directorio = opendir($v); //ruta actual
+			$i=0;
+			while ($archivo = readdir($directorio)) {
+				$i++;
+				if ($archivo != '.' && $archivo != '..') { 
+					
+					?>
+			<a href="/<?php echo $v . $archivo ?>" class="<?php echo $gal ?>" rel="<?php echo $rel ?>">
+				<div class="<?php echo $gal ?>_img" style="background-image: url('/<?php echo $v . $archivo ?>')" ></div>
+			</a>
+					<?php
+				}
+			}
+			echo "<div class='clear'></div>";
+		}
+	?>
+	
+	<?php
+}
