@@ -53,9 +53,8 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="wrapper" class="hfeed">
+<div id="TODO">
 	<header>
 		Header
 	</header>
-
-	<div id="main">
+	<section>
