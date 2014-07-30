@@ -5,6 +5,9 @@
 		<title>Highcharts Example</title>
 
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<style type="text/css">
+${demo.css}
+		</style>
 		<script type="text/javascript">
 $(function () {
         $('#container').highcharts({
@@ -30,7 +33,7 @@ $(function () {
                 y: 100,
                 floating: true,
                 borderWidth: 1,
-                backgroundColor: '#FFFFFF'
+                backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'
             },
             xAxis: {
                 categories: ['Apples', 'Pears', 'Oranges', 'Bananas', 'Grapes', 'Plums', 'Strawberries', 'Raspberries']
@@ -76,7 +79,7 @@ $(function () {
 <script src="../../js/highcharts.js"></script>
 <script src="../../js/modules/exporting.js"></script>
 
-<div id="container" style="min-width: 400px; height: 400px; margin: 0 auto"></div>
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 
 	</body>
 </html>

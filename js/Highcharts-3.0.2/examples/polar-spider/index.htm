@@ -5,6 +5,9 @@
 		<title>Highcharts Example</title>
 
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<style type="text/css">
+${demo.css}
+		</style>
 		<script type="text/javascript">
 $(function () {
 
@@ -45,7 +48,7 @@ $(function () {
 	    legend: {
 	        align: 'right',
 	        verticalAlign: 'top',
-	        y: 100,
+	        y: 70,
 	        layout: 'vertical'
 	    },
 	    
@@ -68,7 +71,7 @@ $(function () {
 <script src="../../js/highcharts-more.js"></script>
 <script src="../../js/modules/exporting.js"></script>
 
-<div id="container" style="width: 700px; height: 400px; margin: 0 auto"></div>
+<div id="container" style="min-width: 400px; max-width: 600px; height: 400px; margin: 0 auto"></div>
 
 	</body>
 </html>
