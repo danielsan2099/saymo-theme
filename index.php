@@ -14,10 +14,9 @@
  */
 
 get_header(); ?>
-
-		<div id="container">
-			<div id="content" role="main">
-				Contenido
-			</div><!-- #content -->
-		</div><!-- #container -->
+    <div id="container">
+        <div id="content" role="main">
+            Nuevo Contenido
+        </div><!-- #content -->
+    </div><!-- #container -->
 <?php get_footer(); ?>
