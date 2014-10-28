@@ -1,0 +1,20 @@
+Como usar LastVideo	
+
+<script src="<?php echo get_bloginfo('stylesheet_directory');?>/js/lastVideos.js"></script>
+<script>
+	$(document).ready(function(){
+	    $("#vid").lastVideos({
+			//Altura del video
+			height : 260,
+			//Numero de videos a mostrar
+			numVideos : 1,
+			//Funcion a ejecutar despues de terminar de traer los videos
+			onSuccess : function(){},
+			//Nombre de usuario
+			user : 'FOVISSSTE',
+			//Ancho del video
+			width : 390
+		});
+	});
+</script>
+<div id="vid"></div>

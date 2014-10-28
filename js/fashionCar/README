@@ -1,0 +1,49 @@
+Como usar El carrusel Fashion
+
+<link rel="stylesheet" href="js/carusel.css">
+<script src="js/carusel.js"></script>
+<script>
+	$(document).ready(function(){
+	    // $(".fIzq").click(function(){
+	    // 	$(".fbn:nth-child(5)").animate({'margin'});
+	    // });
+
+		$('#demo3').boutique({
+			front_img_width:	158,
+			front_img_height:	233,
+			autoplay:			false,
+			autoplay_interval:	4000,
+			front_topmargin:	-15,
+			behind_topmargin:	0,
+			back_topmargin:		0,
+			behind_size:		1,
+			back_size:			1,
+			behind_distance:	160,
+			behind_opacity:		1,
+			back_opacity:		1,
+			move_more_directly: true,
+			text_opacity:		0,
+			frames:				5,
+			starter:			3,
+			speed:				500,
+			hovergrowth:		0.05,
+			freescroll:			true,
+			text_front_only:	true,
+			keyboard:			false
+		});
+	});
+</script>
+<div id="tira">
+	<div class="Fl fIzq" onclick="demo3_previous()"></div>
+	<div style="width: 800px;margin-left: 10px;" class="Fl">
+		<ul id="demo3">
+			<li><a href="#contentdiv1"><img src="<?php echo get_bloginfo('stylesheet_directory');?>/images/f2013/1.png" alt=""></a></li>
+			<li><a href="#contentdiv2"><img src="<?php echo get_bloginfo('stylesheet_directory');?>/images/f2013/2.png" alt=""></a></li>
+			<li><a href="#contentdiv3"><img src="<?php echo get_bloginfo('stylesheet_directory');?>/images/f2013/3.png" alt=""></a></li>
+			<li><a href="#contentdiv4"><img src="<?php echo get_bloginfo('stylesheet_directory');?>/images/f2013/4.png" alt=""></a></li>
+			<li><a href="#contentdiv5"><img src="<?php echo get_bloginfo('stylesheet_directory');?>/images/f2013/5.png" alt=""></a></li>
+		</ul>
+	</div>
+	<div class="Fl fDer" onclick="demo3_next()"></div>
+	<div class="clear"></div>
+</div><!-- End #tira -->

@@ -14,19 +14,16 @@
 
 get_header(); ?>
 
-		<div id="container">
-			<div id="content" role="main">
+<section>
+	<h1>Contenido</h1>
+	<h2>Pagina</h2>
+	<?php
+	/* Run the loop to output the page.
+	 * If you want to overload this in a child theme then include a file
+	 * called loop-page.php and that will be used instead.
+	 */
+	get_template_part( 'loop', 'page' );
+	?>
+</section>
 
-			<?php
-			/* Run the loop to output the page.
-			 * If you want to overload this in a child theme then include a file
-			 * called loop-page.php and that will be used instead.
-			 */
-			get_template_part( 'loop', 'page' );
-			?>
-
-			</div><!-- #content -->
-		</div><!-- #container -->
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
