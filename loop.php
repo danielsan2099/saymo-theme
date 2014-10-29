@@ -14,14 +14,14 @@
  * <code>get_template_part( 'loop', 'index' );</code>
  *
  * @package WordPress
- * @subpackage Twenty_Ten
- * @since Twenty Ten 1.0
+ * @subpackage Gmk_Theme
+ * @since Gmk Theme 0.29
  */
 ?>
 
 <section id="loop">
 	<h1>
-        NOTICIAS	
+        LOOP	
     </h1>
 	<?php
 	$my_query = new WP_Query('cat=2&order=DESC&posts_per_page=3&paged=' . intval($_GET['d']));

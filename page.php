@@ -8,8 +8,8 @@
  * different template.
  *
  * @package WordPress
- * @subpackage Twenty_Ten
- * @since Twenty Ten 1.0
+ * @subpackage Gmk_Theme
+ * @since Gmk Theme 0.29
  */
 
 get_header(); ?>

@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Gmk_Theme
- * @since Gmk Theme 0.3
+ * @since Gmk Theme 0.29
  */
 
 get_header(); ?>

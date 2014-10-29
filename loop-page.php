@@ -8,10 +8,9 @@
  * the tags used in it.
  *
  * This can be overridden in child themes with loop-page.php.
- *
  * @package WordPress
- * @subpackage Twenty_Ten
- * @since Twenty Ten 1.2
+ * @subpackage Gmk_Theme
+ * @since Gmk Theme 0.29
  */
 ?>
 
