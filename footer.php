@@ -6,19 +6,14 @@
  * after. Calls sidebar-footer.php for bottom widgets.
  *
  * @package WordPress
- * @subpackage Twenty_Ten
- * @since Twenty Ten 1.0
+ * @subpackage Gmk-theme
+ * @since Gmk-theme 0.29
  */
 ?>
-	</div><!-- #main -->
 
-	<div id="footer" role="contentinfo">
-		<div id="colophon">
-			Footer
-		</div><!-- #colophon -->
-	</div><!-- #footer -->
-
-</div><!-- #wrapper -->
+<footer>
+	Footer
+</footer>
 
 <?php
 	/* Always have wp_footer() just before the closing </body>

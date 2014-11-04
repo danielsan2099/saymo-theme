@@ -53,8 +53,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="TODO">
+
 	<header>
 		Header
 	</header>
-	<section>
