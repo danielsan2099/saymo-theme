@@ -82,3 +82,11 @@ add_theme_support( 'post-thumbnails' );
 add_theme_support( 'post-thumbnails', array( 'post' ) );          // Posts only
 add_theme_support( 'post-thumbnails', array( 'page' ) );          // Pages only
 add_theme_support( 'post-thumbnails', array( 'post', 'movie' ) ); // Posts and Movies
+
+/*--- Funcion para generar urls validas para el background-images ---*/
+function url_bgi($cadena){
+	$url_cadena = str_replace(" ","%20",$cadena);
+	$url_cadena = str_replace("(","%28",$url_cadena);
+	$url_cadena = str_replace(")","%29",$url_cadena);
+	return $url_cadena;
+}
