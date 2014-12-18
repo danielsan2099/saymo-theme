@@ -10,6 +10,6 @@
 get_header(); ?>
 <section>
 	<h1>Contenido</h1>
-	<h2>Todo del autor</h2>
+	<h2>Todo sobre el autor autor </h2>
 </section>
 <?php get_footer(); ?>

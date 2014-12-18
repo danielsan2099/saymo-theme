@@ -10,6 +10,6 @@
 get_header(); ?>
 <section>
 	<h1>Contenido</h1>
-	<h2>Categoria</h2>
+	<h2>Visor de Categorias</h2>
 </section>
 <?php get_footer(); ?>
