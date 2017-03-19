@@ -10,8 +10,8 @@
  * This can be overridden in child themes with loop-attachment.php.
  *
  * @package WordPress
- * @subpackage Gmk_Theme
- * @since Gmk Theme 0.29
+ * @subpackage Saymo_Theme
+ * @since Saymo Theme 0.29
  */
 ?>
 

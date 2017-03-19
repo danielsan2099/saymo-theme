@@ -3,8 +3,8 @@
  * The template for displaying Category Archive pages.
  *
  * @package WordPress
- * @subpackage Gmk_Theme
- * @since Gmk Theme 0.3
+ * @subpackage Saymo_Theme
+ * @since Saymo Theme 0.3
  */
 
 get_header(); ?>

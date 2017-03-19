@@ -14,8 +14,8 @@
  * <code>get_template_part( 'loop', 'index' );</code>
  *
  * @package WordPress
- * @subpackage Gmk_Theme
- * @since Gmk Theme 0.29
+ * @subpackage Saymo_Theme
+ * @since Saymo Theme 0.29
  */
 ?>
 

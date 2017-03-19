@@ -3,8 +3,8 @@
  * The main template file.
  *
  * @package WordPress
- * @subpackage Gmk_Theme
- * @since Gmk Theme 0.29
+ * @subpackage Saymo_Theme
+ * @since Saymo Theme 0.29
  */
 
 get_header(); ?>

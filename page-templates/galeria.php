@@ -8,8 +8,8 @@
  * from a dropdown menu on the edit page screen.
  *
  * @package WordPress
- * @subpackage GMK-Theme
- * @since GMK Wordpress Theme 0.42
+ * @subpackage SAYMO-Theme
+ * @since SAYMO THEME WORDPRESS 0.42
  */
 global $wpdb;
 $results = $wpdb->get_results( 'SELECT * FROM wp_bwg_gallery', OBJECT );
@@ -29,7 +29,7 @@ get_header(); ?>
 		<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 col-sm-offset-1 col-sm-offset-1 col-lg-offset-1" style = "margin-top : 3rem;">
 			<div class="row">
 				<div class="col-sm-3 col-md-3 col-lg-3 hidden-xs">
-					<?php include_once 'wp-content/themes/gmk-theme/sidebar.php'; ?>
+					<?php include_once 'wp-content/themes/SAYMO-theme/sidebar.php'; ?>
 				</div>
 				<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
 					<div class="">
@@ -60,7 +60,7 @@ get_header(); ?>
 								</div>
 							</div><!-- end .row -->
 						<div class="white-bg">	
-							<?php include_once 'wp-content/themes/gmk-theme/contacto.php'; ?>
+							<?php include_once 'wp-content/themes/SAYMO-theme/contacto.php'; ?>
 						</div>
 						<div class="fake-footer-img">	
 						<a href="#"><img src="<?php echo get_bloginfo('stylesheet_directory');?>/images/contacto/top.png" alt=""></a>

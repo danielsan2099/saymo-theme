@@ -5,8 +5,8 @@
  * Displays all of the <head> section and everything up till <div id="main">
  *
  * @package WordPress
- * @subpackage Gmk_Theme
- * @since Gmk Theme 0.29
+ * @subpackage Saymo_Theme
+ * @since Saymo Theme 0.29
  */
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>

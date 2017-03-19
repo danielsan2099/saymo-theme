@@ -6,8 +6,8 @@
  * after. Calls sidebar-footer.php for bottom widgets.
  *
  * @package WordPress
- * @subpackage Gmk-theme
- * @since Gmk-theme 0.29
+ * @subpackage SAYMO-theme
+ * @since SAYMO-theme 0.29
  */
 ?>
 

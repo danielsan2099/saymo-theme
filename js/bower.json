@@ -1,0 +1,29 @@
+{
+  "name": "saymo-theme",
+  "homepage": "https://github.com/saymo23/saymo-theme",
+  "description": "Bower en Saymo",
+  "main": "index.js",
+  "keywords": [
+    "saymo",
+    "theme",
+    "wordpress"
+  ],
+  "authors": [
+    "Daniel Santarriaga"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "fancyBox": ">=3",
+    "vue": "",
+    "jquery-validation": ""
+  },
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
