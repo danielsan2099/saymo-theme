@@ -49,7 +49,6 @@
 		        $metatit = $post->post_title;
 		        $metatype = "article";
 		        $metaperma = get_permalink();
-
 		} else {
 		        $metadesc = "Descripcion";
 		        $metadesc_tw = $metadesc;
@@ -83,30 +82,22 @@
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	<!-- Bootstrap 3 -->
-	<link rel="stylesheet" href="<?php echo get_bloginfo('stylesheet_directory');?>/css/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="<?php echo get_bloginfo('stylesheet_directory');?>/css/bootstrap/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="<?php echo get_bloginfo('stylesheet_directory');?>/js/bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?php echo get_bloginfo('stylesheet_directory');?>/js/bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
 	<!-- Jquery -->
-	<script src="<?php echo get_bloginfo('stylesheet_directory');?>/js/jquery/jquery-1.10.2.min.js"></script>
+	<script src="<?php echo get_bloginfo('stylesheet_directory');?>/js/bower_components/jquery/dist/jquery.min.js"></script>
 	<!-- JS Bootstrap -->
-	<script src="<?php echo get_bloginfo('stylesheet_directory');?>/css/bootstrap/js/bootstrap.min.js"></script>
-<?php
-	/* We add some JavaScript to pages with the comment form
-	 * to support sites with threaded comments (when in use).
-	 */
-	if ( is_singular() && get_option( 'thread_comments' ) )
-		wp_enqueue_script( 'comment-reply' );
-
-	/* Always have wp_head() just before the closing </head>
-	 * tag of your theme, or you will break many plugins, which
-	 * generally use this hook to add elements to <head> such
-	 * as styles, scripts, and meta tags.
-	 */
-	wp_head();
-?>
+	<script src="<?php echo get_bloginfo('stylesheet_directory');?>/js/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<?php
+		/* We add some JavaScript to pages with the comment form
+		* to support sites with threaded comments (when in use).
+		*/
+		if ( is_singular() && get_option( 'thread_comments' ) )
+			wp_enqueue_script( 'comment-reply' );
+		wp_head();s
+	?>
 </head>
-
 <body <?php body_class(); ?>>
-
 	<header>
 		Header
 	</header>
