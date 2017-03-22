@@ -1,0 +1,25 @@
+{
+  "name": "saymo-theme",
+  "version": "1.0.0",
+  "description": "Saymo Theme",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saymo23/saymo-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saymo23/saymo-theme/issues"
+  },
+  "homepage": "https://github.com/saymo23/saymo-theme#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {}
+}
